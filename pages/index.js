@@ -14,20 +14,20 @@ const Inicio = (props) => {
   return (
     <Layout pageTitle="Home">
       <header>
-        <Navbar/>
-        <Banner/>
+        <Navbar />
+        <Banner />
       </header>
       <div class="wrapper">
         <main id="main" tabindex="-1">
-        <Objetivos/>
-        <Actividades/>
-        <CallToAction/>
-        <Noticias/>
-        <NewsLetter/>
-        <Donar/>
+          <Objetivos />
+          <Actividades />
+          <CallToAction />
+          <Noticias />
+          <NewsLetter />
+          <Donar />
         </main>
       </div>
-      <Footer/>
+      <Footer />
     </Layout>
   );
 };

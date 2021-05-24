@@ -10,18 +10,18 @@ const Contacto = (props) => {
   return (
     <Layout pageTitle="Contact">
       <header>
-        <Navbar/>
-        <Banner/>
+        <Navbar />
+        <Banner />
       </header>
       <div class="container">
         <div class="row">
           <main id="main" tabindex="-1">
-            <Contact/>
-            <ContactForm/>
+            <Contact />
+            <ContactForm />
           </main>
         </div>
       </div>
-      <Footer/>    
+      <Footer />
     </Layout>
   );
 };

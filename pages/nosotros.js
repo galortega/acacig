@@ -9,11 +9,11 @@ const Nosotros = (props) => {
   return (
     <Layout pageTitle="AboutUs">
       <header>
-        <Navbar/>
-        <Banner/>
+        <Navbar />
+        <Banner />
       </header>
-      <Historia/>
-      <Footer/>      
+      <Historia />
+      <Footer />
     </Layout>
   );
 };

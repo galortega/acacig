@@ -9,11 +9,11 @@ const Donaciones = (props) => {
   return (
     <Layout pageTitle="Donations">
       <header>
-        <Navbar/>
-        <Banner/>
+        <Navbar />
+        <Banner />
       </header>
-      <Donacion/>
-      <Footer/>
+      <Donacion />
+      <Footer />
     </Layout>
   );
 };

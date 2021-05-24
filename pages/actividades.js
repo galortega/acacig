@@ -9,11 +9,11 @@ const Actividades = (props) => {
   return (
     <Layout pageTitle="Activities">
       <header>
-        <Navbar/>
-        <Banner/>
+        <Navbar />
+        <Banner />
       </header>
-      <Actividad/>
-      <Footer/>      
+      <Actividad />
+      <Footer />
     </Layout>
   );
 };

@@ -10,18 +10,18 @@ const SeMiembro = (props) => {
   return (
     <Layout pageTitle="BeMember">
       <header>
-        <Navbar/>
-        <Banner/>
+        <Navbar />
+        <Banner />
       </header>
       <div class="container">
         <div class="row">
           <main id="main" tabindex="-1">
-            <Miembro/>
-            <MiembroForm/>
+            <Miembro />
+            <MiembroForm />
           </main>
         </div>
       </div>
-      <Footer/>  
+      <Footer />
     </Layout>
   );
 };

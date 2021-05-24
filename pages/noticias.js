@@ -9,11 +9,11 @@ const Noticias = (props) => {
   return (
     <Layout pageTitle="News">
       <header>
-        <Navbar/>
-        <Banner/>
+        <Navbar />
+        <Banner />
       </header>
-      <Noticia/>
-      <Footer/>
+      <Noticia />
+      <Footer />
     </Layout>
   );
 };
